@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>	<title>La Magdalena</title>
+	<style type="text/css">
+		body{
+			font-size: 100%;
+			font-family: "Arial","Arial",monospace;
+			
+			letter-spacing: 0.20em;
+
+			background: rgba(16,134,163,1);
+background: -moz-linear-gradient(-45deg, rgba(16,134,163,1) 0%, rgba(190,243,250,1) 86%, rgba(190,243,250,1) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(16,134,163,1)), color-stop(86%, rgba(190,243,250,1)), color-stop(100%, rgba(190,243,250,1)));
+background: -webkit-linear-gradient(-45deg, rgba(16,134,163,1) 0%, rgba(190,243,250,1) 86%, rgba(190,243,250,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(16,134,163,1) 0%, rgba(190,243,250,1) 86%, rgba(190,243,250,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(16,134,163,1) 0%, rgba(190,243,250,1) 86%, rgba(190,243,250,1) 100%);
+background: linear-gradient(135deg, rgba(16,134,163,1) 0%, rgba(190,243,250,1) 86%, rgba(190,243,250,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1086a3', endColorstr='#bef3fa', GradientType=1 ); 
+		
+		}
+		
+		#page{
+			font-family: "Times New Roman","Times",monospace;
+			letter-spacing: 0.50em;
+			max-width: 1190px;
+			min-width: 920px;
+			margin: 1px auto 1px auto;
+			padding: 10px;
+			border: 5px double #000;
+			border-color: #2A078D;
+			background-color: #ffffff;
+		}
+		.sub{
+		background:tomato;
+		height: 100px;
+		width: 100%;
+		}
+		ul{
+			width: 1070px;
+			padding: 15px;
+			margin: 3px auto 3px auto;
+			border-top: 1px solid #000;
+			border-bottom: 1px solid #000;
+			border-color: #0E77C6;
+			text-align: :center;
+		}
+		li{
+			display: inline;
+			margin: 0px 1px;
+		}
+		a{
+			color: #000000;
+			text-transform: uppercase;
+			text-decoration: none;
+			padding: 6px 18px 5px 18px;
+		}
+		a:hover, a.on{
+			color: #cc3333;
+			background-color: #ffffff;
+
+		}
+
+	</style>
+	<link rel="icon" type="image/png" href="img\Escudo.jpg" />
+</head>
+<body>
+	<div id="page">
+	<ul id="navigation">
+		<li><a href="index.html"><u>Inicio</u></a></li>
+		<li><a href="Hechos,html"><u>Hechos Historicos</u></a></li>
+		<li><a href="Personajes.html"><u>Personajes Ilustres</u> </a></li>
+		<li><a href="Galeria2.html"><u>Galeria</u></a></li>
+		<li><a href="Organigrama.html"><u>Organigrama</u></a></li>
+		
+		<li><a href="Ubicacion.html"><u>Ubicación</u></a></li>
+		<li><a href="Links.html"><u>Links de Interés</u></a></li>
+	</ul>
+</div>
+
+<link rel="stylesheet" type="text/css" href="G.css">
+<h1>Galería de imágenes</h1>
+	
+	<ul class="galeria">
+		<li><a href="#img1"><img src="img\Parroquia.jpg"></a></li>
+		<li><a href="#img2"><img src="img\InteriorParroquia.jpg"></a></li>
+		<li><a href="#img3"><img src="img\Precidencia.jpg"></a></li>
+		<li><a href="#img4"><img src="img\Parque.jpg"></a></li>
+		<li><a href="#img5"><img src="img\Explanada.jpeg"></a></li>
+		<li><a href="#img6"><img src="img\Explanada2.jpg"></a></li>
+
+	</ul>
+
+	<div class="modal" id="img1">
+		<h3>Parroquia de Santa María Magdalena</h3>
+		<div class="imagen">
+			<a href="#img6">&#60;</a>
+			<a href="#img2"><img src="img\Parroquia.jpg"></a>
+			<a href="#img2">></a>
+		</div>
+		<a class="cerrar" href="">X</a>
+	</div>
+	
+	<div class="modal" id="img2">
+		<h3>Interior de la Parroquia de Santa María Magdalena</h3>
+		<div class="imagen">
+			<a href="#img1">&#60;</a>
+			<a href="#img3"><img src="img\InteriorParroquia.jpg"></a>
+			<a href="#img3">></a>
+		</div>
+		<a class="cerrar" href="">X</a>
+	</div>
+	
+	<div class="modal" id="img3">
+		<h3>Precidencia Municipal</h3>
+		<div class="imagen">
+			<a href="#img2">&#60;</a>
+			<a href="#img4"><img src="img\Precidencia.jpg"></a>
+			<a href="#img4">></a>
+		</div>
+		<a class="cerrar" href="">X</a>
+	</div>
+	
+	<div class="modal" id="img4">
+		<h3>Parque de la Parroquia</h3>
+		<div class="imagen">
+			<a href="#img3">&#60;</a>
+			<a href="#img5"><img src="img\Parque.jpg"></a>
+			<a href="#img5">></a>
+		</div>
+		<a class="cerrar" href="">X</a>
+	</div>
+
+		<div class="modal" id="img5">
+		<h3>Explanada de la Parroquia</h3>
+		<div class="imagen">
+			<a href="#img4">&#60;</a>
+			<a href="#img6"><img src="img\Explanada.jpeg"></a>
+			<a href="#img6">></a>
+		</div>
+		<a class="cerrar" href="">X</a>
+	</div>
+
+		<div class="modal" id="img6">
+		<h3>Explanada de la Parroquia</h3>
+		<div class="imagen">
+			<a href="#img5">&#60;</a>
+			<a href="#img1"><img src="img\Explanada2.jpg"></a>
+			<a href="#img1">></a>
+		</div>
+
+
+		<a class="cerrar" href="">X</a>
+	</div>
+<br><br><br><br><br><br><br><br><br><br>
+
+<div class="sub" align="center" >
+	<br><br><br>
+ <p>©Copyright La Magdalena, Tlatelulo 2019</p>
+</div>
+</body>
+</html>
